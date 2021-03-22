@@ -50,9 +50,7 @@ author:
 ### Posts ###
 permalink: /blog/:title
 markdown: kramdown
-kramdown:
-  input: GFM
-toc_levels: 1……4
+toc_levels: 2……4
 
 ### Collections ###
 collections:
