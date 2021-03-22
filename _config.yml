@@ -1,12 +1,15 @@
 ### Site Settings ###
 title               : Friedsoda
 description         : >-
-                      Hello
-                      不知道要写什么耶
+                      Hello 我是馒馒头
+                      正在学习图形学
+                      不定期分享渲染练习和笔记 _(:з」∠)_
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Friedsoda/fried     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
+
+favicon: /assets/img/favicon.ico
 
 ### Plugins ###
 plugins:
