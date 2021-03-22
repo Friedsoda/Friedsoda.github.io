@@ -24,22 +24,22 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Friedsoda
   image             : /assets/img/hb.jpg
-  behance           : Friedsoda
+#  behance           : Friedsoda
 # dribbble          : your_username
   email             : friedsoda1992@gmail.com
-  facebook          : Friedsoda
+#  facebook          : Friedsoda
   github            : Friedsoda
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : Friedsoda
-  medium            : Friedsoda
+# linkedin          : Friedsoda
+#  medium            : Friedsoda
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  twitter           : Friedsoda
+#  twitter           : Friedsoda
 # vimeo             : your_username
 # youtube           : your_channel_name
 # keybase           : your_username
