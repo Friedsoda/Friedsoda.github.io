@@ -13,6 +13,7 @@ favicon: /assets/img/favicon.ico
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-toc
 
 
 ### Navbar Settings ###
