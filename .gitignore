@@ -1,5 +1,6 @@
 # Ruby Gems
 *.gem
+*.lock
 
 _site/
 .sass-cache/
