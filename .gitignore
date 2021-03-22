@@ -1,6 +1,10 @@
 # Ruby Gems
 *.gem
 
+_site/
+.sass-cache/
+.DS_Store
+
 # Design Files
 *.psd
 *.ai
