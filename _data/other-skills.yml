@@ -1,7 +1,15 @@
-- name: Blender
+- name: Unity
   percentage: 60
+  color: warning
+
+- name: Blender
+  percentage: 50
   color: info
 
 - name: Houdini
   percentage: 40
   color: success
+
+- name: 3Dmax
+  percentage: 30
+  color: light

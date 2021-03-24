@@ -4,8 +4,8 @@
 
 - name: OpenGL
   percentage: 60
-  color:
+  color: secondary
 
-- name: Unity
-  percentage: 50
+- name: WebGL
+  percentage: 40
   color: dark
