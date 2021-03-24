@@ -9,7 +9,3 @@
 - name: Houdini
   percentage: 40
   color: success
-
-- name: 3Dmax
-  percentage: 30
-  color: light
