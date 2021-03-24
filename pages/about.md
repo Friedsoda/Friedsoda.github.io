@@ -1,4 +1,5 @@
 ---
+
 layout: page
 title: About
 permalink: /about/
@@ -11,11 +12,9 @@ weight: 3
 
 Hello 我是**馒馒头** :wave:<br>
 
-目前是图形学方向研究生，努力成为技术美术中。<br>
+图形学方向研究生，希望写出好看的Shader。 <br>
 
 <br><br>
-
-
 
 
 
@@ -23,8 +22,11 @@ Hello 我是**馒馒头** :wave:<br>
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
+<br>
+
 
 <div class="row">
 {% include about/timeline.html %}
 </div>
+
 

@@ -1,10 +1,30 @@
 # Get Icons  from : https://fontawesome.com/icons
 # Get Colors from : https://brandcolors.net/
 
+500px:
+  url   : https://500px.com.cn/
+  icon  : fab fa-500px
+  color : 212121
+
+artstation:
+  url   : https://www.artstation.com/
+  icon  : fab fa-artstation
+  color : 1a9eeb
+
 behance:
   url   : https://www.behance.net/
   icon  : fab fa-behance
   color : 1769ff
+
+bilibili: 
+  url   : https://space.bilibili.com/
+  icon  : fab fa-tv
+  color : f85887  
+
+douban:
+  url   : https://www.douban.com/people/
+  icon  : /assets/douban.ico
+  color : 0e160f
 
 dribbble:
   url   : https://dribbble.com/
@@ -95,3 +115,4 @@ keybase:
   url   : https://www.keybase.io/
   icon  : fab fa-keybase
   color : 66ccff
+
