@@ -56,7 +56,7 @@ toc_levels: 2……4
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /collections/:name
 
 
 ### Disqus ###
@@ -75,7 +75,7 @@ analytics:
 defaults:
   - scope:
       path: ""
-      type: "projects"
+      type: "collections"
     values:
       layout: "page"
   - scope:
