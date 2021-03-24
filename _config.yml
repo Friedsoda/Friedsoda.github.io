@@ -22,6 +22,11 @@ nav_exclude:                                            # The following paths ar
   - pages/index.md
 
 
+
+paginate: 16
+paginate_path: "page:num"
+
+
 ### Author Info ###
 author:
   name              : Friedsoda
