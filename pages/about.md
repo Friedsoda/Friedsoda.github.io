@@ -16,18 +16,16 @@ Hello 我是**馒馒头** :wave:<br>
 
 希望能做出许多好看的Shader。 <br>
 
-拉到底部访问我的Github、ArtStation和500px（？）。<br>
+拉到页面底部访问我的Github、ArtStation和500px（？）。<br>
 
-<br><br>
+<br>
 
-
+<br>
 
 <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
 </div>
-<br>
-
 <br>
 
 
