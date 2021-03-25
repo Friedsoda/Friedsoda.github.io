@@ -23,7 +23,7 @@ bilibili:
 
 douban:
   url   : https://www.douban.com/people/
-  icon  : /assets/douban.ico
+  icon  : fab fa-frown
   color : 0e160f
 
 dribbble:
