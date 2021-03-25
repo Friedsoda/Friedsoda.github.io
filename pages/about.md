@@ -10,11 +10,11 @@ weight: 3
 
 <br>
 
-Hello 我是**馒馒头** :wave:<br>
+Hi 我是**馒馒头** :wave:<br>
 
-图形学方向研究生，退休键盘手，广东吃饭冠军。<br>
+图形学方向研究生<br>
 
-希望能做出好看的Shader。 <br/>
+希望能做出好看的Shader<br/>
 
 <br>
 
