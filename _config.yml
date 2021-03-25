@@ -67,7 +67,7 @@ toc_levels: 2……4
 collections:
   projects:
     output: true
-    permalink: /collections/:name
+    permalink: /collection/:name
 
 
 ### Disqus ###
