@@ -25,7 +25,7 @@ nav_exclude:                                            # The following paths ar
 paginate: 5
 paginate_path: 
   - blog/page:num
-  - collections/page:num
+  - collection/page:num
 
 
 ### Author Info ###
@@ -89,6 +89,7 @@ defaults:
       type: "projects"
     values:
       layout: "page"
+      comments: true    
   - scope:
       path: ""
       type: "posts"
