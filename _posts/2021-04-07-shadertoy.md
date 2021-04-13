@@ -2,7 +2,7 @@
 title: Shadertoy记录
 tags: [Projects]
 style: 
-color: 
+color: info
 description: Ray Marching原理，还有一些Shader的学习记录。
 comments: true
 ---
@@ -11,7 +11,7 @@ comments: true
 
 <br/>
 
-### Ray Marching原理
+### Ray Marching
 
 在Shadertoy里只处理片元着色器，输入FragCoord，通过自己的操作输出该点的颜色值，因此处理3d物体必须用到Ray Marching。
 
