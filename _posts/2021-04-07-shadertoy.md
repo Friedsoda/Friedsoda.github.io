@@ -4,7 +4,6 @@ tags: [Projects]
 style: 
 color: info
 description: Ray Marching原理，还有一些Shader的学习记录。
-comments: true
 ---
 
 
