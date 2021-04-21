@@ -33,7 +33,7 @@ description: Ray Marching原理，还有一些Shader的学习记录。
 ![avatar](../assets/img/post2/sdtoy/3.png)
 
 ```glsl
-float RayMarching(vec3 ro, vec3 rd)
+float RayMarch(vec3 ro, vec3 rd)
 {
     float dO = 0.;
 
@@ -55,4 +55,44 @@ float RayMarching(vec3 ro, vec3 rd)
 
 <br/>
 
+用`RayMarch()`函数获取步进距离d，计算出当前像素点所在的世界坐标p，接着用`GetLight()`函数就可以进行颜色计算辣。
+
+```glsl
+vec3 ro = vec3(0, 1, 0); // Camera
+vec3 rd = normalize(vec3(uv.x, uv.y, 1)); // Light direction
+
+float d = RayMarch(ro, rd);
+vec3 p = ro + rd * d;
+
+vec3 col = vec3(GetLight(p, ro));
+
+fragColor = vec4(col, 1.0);
+```
+
+
+
+<br/>
+
+值得一提的是在`GetLight()`里可以计算阴影，方法就是从当前点沿着光线方向再进行一次RayMarch，得到距离值d，如果d小于像素点到光源的距离，则说明从光源到该点之间有物体遮挡，即该点处于阴影中。
+
+```glsl
+float d = RayMarch(p + n * SURF_DIST * 2., l);
+if (d < length(lightPos - p)) return 0.;
+```
+
+<br/>
+
+球体示例（[源码](https://github.com/Friedsoda/ShaderToys/blob/main/sphere.glsl)）
+
+![avatar](../assets/img/col/3.gif)
+
+
+
+<br/>
+
+<br/>
+
+
+
+### 简单物体
 

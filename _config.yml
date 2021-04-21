@@ -22,11 +22,6 @@ nav_exclude:                                            # The following paths ar
 
 
 
-paginate: 5
-paginate_path: 
-  - blog/page:num
-  - collection/page:num
-
 
 ### Author Info ###
 author:
