@@ -92,7 +92,9 @@ if (d < length(lightPos - p)) return 0.;
 
 <br/>
 
+胶囊体的距离计算方法：
 
 
-### 简单物体
+
+
 
