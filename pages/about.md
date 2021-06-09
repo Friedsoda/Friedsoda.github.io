@@ -3,7 +3,7 @@
 layout: page
 title: About
 permalink: /about/
-weight: 3
+weight: 4
 ---
 
 # **About Me**
@@ -12,11 +12,15 @@ weight: 3
 
 Hi 我是**馒馒头** :wave:<br>
 
-图形学方向研究生<br>
+图形学方向硕士，目前就读于Trinity College Dublin。 <br>
 
-希望能做出好看的Shader<br/>
+希望能做出好看的Shader。<br/>
 
-<br>
+<br/>
+
+我的邮箱：friedsoda1992@gmail.com<br/>
+
+其他网站联系方式在页面底部。<br/>
 
 <br>
 

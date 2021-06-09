@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : 油炸汽水's Blog
 description         : >-
-                      分享和Graphics有关的一切
+                      分享有关Graphics的一切
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Friedsoda/fried     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -28,8 +28,8 @@ author:
   name              : Friedsoda
   image             : /assets/img/hb.jpg
 #  behance           : Friedsoda
-# dribbble          : your_username
-  email             : friedsoda1992@gmail.com
+#  dribbble          : your_username
+#  email             : friedsoda1992@gmail.com
 #  facebook          : Friedsoda
   github            : Friedsoda
 # gitlab            : your_username
@@ -37,15 +37,15 @@ author:
   500px             : friedsoda
 # instagram         : your_username
 # kaggle            : your_username
-# linkedin          : Friedsoda
+  linkedin          : friedsoda
 #  medium            : Friedsoda
 # soundcloud        : your_username
 # spotify           : your_username
 # stackoverflow     : your_user_id
 # tumblr            : your_username.tumblr.com
 # twitch            : your_username
-  facebook          : friedsoda1992
-  twitter           : mKmhKpelhrltGyd
+#  facebook          : friedsoda1992
+#  twitter           : mKmhKpelhrltGyd
 #  douban            : '130092894'
 #  bilibili          : 2010525
 # vimeo             : your_username
@@ -62,7 +62,12 @@ toc_levels: 2……4
 collections:
   projects:
     output: true
-    permalink: /collection/:name
+    permalink: /portfolio/:name
+  tests:
+    output: true
+    permalink: /projects/:name
+
+### Collections ###
 
 
 ### Disqus ###
@@ -87,9 +92,16 @@ defaults:
       comments: false    
   - scope:
       path: ""
+      type: "tests"
+    values:
+      layout: "page"
+      comments: false    
+  - scope:
+      path: ""
       type: "posts"
     values:
       comments: false                               # Set to true to enable disqus comments
+
 
 ### Exclude from processing ###
 exclude:
