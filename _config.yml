@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : 油炸汽水's Blog
 description         : >-
-                      分享有关Graphics的一切
+                      （别看！装修中建设中）分享有关Graphics的一切
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : Friedsoda/fried     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
